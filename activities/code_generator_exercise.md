@@ -1,5 +1,5 @@
 #Logs
-```
+```java
 Log.d(“TAG”, “Message”);
 
 * V — Verbose (lowest priority) 
@@ -25,7 +25,7 @@ Log.d(“TAG”, “Message”);
 3. The length the TOAST would appear (short appearance or long appearance?)
 4. show()
 
-```
+```java
 Toast.make(MainActivity.this, “Hello World!”, Toast.LENGTH_LONG).show();
 ```
 ##Click Me with a TOAST!
@@ -34,7 +34,7 @@ Toast.make(MainActivity.this, “Hello World!”, Toast.LENGTH_LONG).show();
 #EditText
 How to get the value of EditText? We need to assign an ID to the View in activity_main.xml.
 
-```
+```java
 EditText editText = (EditText) findViewById(R.id.nameEditText);
 String name = editText.getText().toString(); 
 ```
@@ -47,7 +47,7 @@ String name = editText.getText().toString(); 
 #TextView
 How to change the value of TextView? We need to assign an ID to the View in activity_main.xml.
 
-```
+```java
 TextView textView = (TextView) findViewById(R.id.codeNameTextView);
 textView.setText(“My Code Name”);
 ```
