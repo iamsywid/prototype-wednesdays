@@ -42,7 +42,7 @@ String name = editText.getText().toString(); 
 ## Let’s Toast to that!
 1. Add an Edit Text and a Button.
 2. Make user name appear on the TOAST!
-3. Say, “Hello, <Your Name>!”
+3. Say, “Hello, User Name!”
 
 # TextView
 How to change the value of TextView? We need to assign an ID to the View in activity_main.xml.
@@ -58,8 +58,10 @@ textView.setText(“My Code Name”);
 3. Add an EditText for user to enter name.
 4. Add a Generate Button.
 5. Refer to Code Generator snippet. [gitlab](https://gitlab.com/wwcodemanila/WWCodeManila-Android/blob/master/code_snippets/Code%20Name%20Generator/MainActivity.java)
+6. Add a Toast "Hello, Code Name!"
+7. Change the value of the TextView to display the generated code name.
 
 # More Challenge
 1. Initialize the value of the Code Name Text View to a random code name.
-2. Make "Name" a required field and display an error message.
-4. Handle both uppercase and lowercase letters.
+2. Make "Name" a required field and display an error message when user didn't enter a name.
+4. Handle uppercase, lowercase letters and non-letters.
